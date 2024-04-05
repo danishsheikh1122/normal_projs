@@ -39,7 +39,7 @@ function generateCommitsForPreviousMonth() {
     const prevMonthYear = month === 0 ? year - 1 : year;
     const prevMonth = month === 0 ? 11 : month - 1;
 
-    // Get the number of days in the previous month
+    // Get the number of  days in the previous month
     const daysInPrevMonth = new Date(prevMonthYear, prevMonth + 1, 0).getDate();
 
     // Loop through each day of the previous month and create a commit
