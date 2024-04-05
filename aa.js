@@ -35,7 +35,7 @@ function generateCommitsForPreviousMonth() {
 
 
     // Calculate previous month's year and month  
-    
+     
     const prevMonthYear = month === 0 ? year - 1 : year;
     const prevMonth = month === 0 ? 11 : month - 1;
 
