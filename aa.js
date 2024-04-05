@@ -29,24 +29,7 @@ import execSync from 'child_process'
 function generateCommitsForPreviousMonth() {
   try {
     const today = new Date();
-    
-    
-    
-    
-     
-      
-     
-    
-     
-
-    
-    
-    
-    // Function to generate       commits for all dates in previous month
- 
- 
-
-
+  
     const year = today.getFullYear();
     const month = today.getMonth(); // Note: January is 0, December is 11
 
