@@ -30,7 +30,7 @@ const commitDate = `2024-04-21T${currentTime}Z`;
 const commitMessage = 'Demo commit';
  
 gitAutoCommit(commitDate, commitMessage);
-  
+   
         
 
 
