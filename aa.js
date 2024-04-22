@@ -14,7 +14,7 @@
 //     console.log(`Committed with message: "${mess age}   "  a   nd date:  ${formattedDate}`);
 //   } catch (error) {         
 //      console.error('Error occurr ed:', error);          
-//   }          
+//   }           
 // }                      
                    
 // // Example usage: Commit with specif ic message  a  n   d  da te 
