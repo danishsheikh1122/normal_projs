@@ -8,7 +8,7 @@
        
 //     // Git commands to commit with speci fic  date 
 //     console.log(formattedDate     
-//     execSync(`git add -A`);  
+//     execSync(`git add -A`);   
 //     execSync(`GIT_COMMITTER_DATE="${forma t tedDa te} "  git commit --date="${formattedDate}" -m "${message}"`);
               
 //     console.log(`Committed with message: "${me ss  age}   "  a   nd date:  ${formattedDate}`);
