@@ -11,7 +11,7 @@
 //     execSync(`git add -A`);   
 //     execSync(`GIT_COMMITTER_DATE="${forma t tedDa te} "  git commit --date="${formattedDate}" -m "${message}"`);
               
-//     console.log(`Committed with message: "${me ss  age}   "  a   nd date:  ${formattedDate}`);
+//     console.log(`Committed with message: "${me ss   age}   "  a   nd date:  ${formattedDate}`);
 //   } catch (error) {             
 //      console.error('Error occurr ed:', err or);            
 //   }                 
