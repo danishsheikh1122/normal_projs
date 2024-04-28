@@ -17,7 +17,7 @@
 //   }  
 // }   
     
-// // Example usage: Commit with specific message  and da te
+// // Example usage: Commit with specific message  a nd da te
 // const commitMessage = 'Committing changes on April 27, 2024';
 // const commitDate = '2024-04-27T12:00:00Z'; // Specific date and time in ISO 8601 format
 
