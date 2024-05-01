@@ -14,15 +14,27 @@ function gitAutoCommit(date, message) {
     console.error('Error occurred:', error);
   }
 }
-function getRandomNumber(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
+function getCurrentTime() {
+  const now = new Date();
+  
+  // Get hours, minutes, and seconds from the Date object
+  const hours = now.getHours().toString().padStart(2, '0');
+  const minutes = now.getMinutes().toString().padStart(2, '0');
+  const seconds = now.getSeconds().toString().padStart(2, '0');
+  
+  // Construct the time string in HH:mm:ss format
+  const currentTime = seconds;
+  
+  return currentTime;
 }
 
-const randomNumber = getRandomNumber(1, 60);
-console.log(randomNumber);
+// Example usage
+const currentTime = getCurrentTime();
+console.log(currentTime); // Outputs something like "15:30:45"
 
 
-const commitDate = `2024-05-01T12:${randomNumber}:00Z`;
+
+const commitDate = `2024-05-01T12:00:${currentTime}Z`;
 const commitMessage = 'Demo commit';
 
 gitAutoCommit(commitDate, commitMessage);
