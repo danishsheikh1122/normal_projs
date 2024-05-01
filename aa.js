@@ -14,8 +14,15 @@ function gitAutoCommit(date, message) {
     console.error('Error occurred:', error);
   }
 }
+function getRandomNumber(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
 
-const commitDate = '2024-05-01T12:11:00Z';
+const randomNumber = getRandomNumber(1, 60);
+console.log(randomNumber);
+
+
+const commitDate = `2024-05-01T12:${randomNumber}:00Z`;
 const commitMessage = 'Demo commit';
 
 gitAutoCommit(commitDate, commitMessage);
