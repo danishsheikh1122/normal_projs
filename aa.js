@@ -23,7 +23,7 @@ function getCurrentTime() {
   const seconds = now.getSeconds().toString().padStart(2, '0');
   
   // Construct the time string in HH:mm:ss format
-  const currentTime = seconds;
+  const currentTime = `${hours}:${minutes}:${seconds}`;
   
   return currentTime;
 }
@@ -34,7 +34,7 @@ console.log(currentTime); // Outputs something like "15:30:45"
 
 
 
-const commitDate = `2024-05-01T12:00:${currentTime}Z`;
+const commitDate = `2024-05-01T${currentTime}Z`;
 const commitMessage = 'Demo commit';
 
 gitAutoCommit(commitDate, commitMessage);
