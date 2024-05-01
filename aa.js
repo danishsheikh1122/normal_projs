@@ -22,7 +22,7 @@ const randomNumber = getRandomNumber(1, 60);
 console.log(randomNumber);
 
 
-const commitDate = `2024-05-01T12:${randomNumber}:00Z`;
+const commitDate = `2024-05-01T12:${randomNumber}:${randomNumber}Z`;
 const commitMessage = 'Demo commit';
 
 gitAutoCommit(commitDate, commitMessage);
