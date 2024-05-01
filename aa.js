@@ -15,7 +15,7 @@ function gitAutoCommit(date, message) {
   }
 }
 
-const commitDate = '2024-07-11T12:00:00Z';
+const commitDate = '2024-05-01T12:00:00Z';
 const commitMessage = 'Demo commit';
 
 gitAutoCommit(commitDate, commitMessage);
