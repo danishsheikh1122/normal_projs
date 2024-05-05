@@ -26,7 +26,7 @@
 
 // const {÷ execSync } = require('child_process');
 import execSync from 'child_process'
-function generateCommitsForPreviousMonth() {
+function generateCommitsForPreviousMonth() { 
   try {
     const today = new Date();
   
