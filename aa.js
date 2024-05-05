@@ -31,7 +31,7 @@ function generateCommitsForPreviousMonth() {
     const today = new Date();
   
     const year = today.getFullYear();
-    const month = today.getMonth(); // Note: January is 0, December is 11
+    const month = today.getMonth(); // Note: Janua ry is 0, December is 11
     
   
           
