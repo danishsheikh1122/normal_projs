@@ -31,7 +31,7 @@ function generateCommitsForPreviousMonth() {
   try {
     const today = new Date();
  
-    
+     
  
 
     const year = today.getFullYear();
