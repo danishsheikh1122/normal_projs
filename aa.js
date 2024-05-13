@@ -30,7 +30,8 @@ import execSync from 'child_process'
 function generateCommitsForPreviousMonth() {
   try {
     const today = new Date();
-
+ 
+    
  
 
     const year = today.getFullYear();
