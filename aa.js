@@ -31,9 +31,11 @@ function generateCommitsForPreviousMonth() {
   try {
     const today = new Date();
   
-    
+
      
 
+
+    
  
  
 
