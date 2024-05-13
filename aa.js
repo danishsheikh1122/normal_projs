@@ -26,20 +26,20 @@
 
 // const {÷ execSync } = require('child_process');
 import execSync from 'child_process'
-// Function to generate  commits for all dates in previous month
 function generateCommitsForPreviousMonth() {
   try {
     const today = new Date();
-  
-
-     
-
-
-
-
-
-     
-
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    // Function to generate   commits for all dates in previous month
  
  
 
