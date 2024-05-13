@@ -39,7 +39,7 @@ function generateCommitsForPreviousMonth() {
     
     
     
-    // Function to generate      commits for all dates in previous month
+    // Function to generate       commits for all dates in previous month
  
  
 
