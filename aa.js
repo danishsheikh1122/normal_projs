@@ -13,7 +13,7 @@
  
 //     console.log(`Committed with message: "${mess age}" and date: ${formattedDate}`);
 //   } catch (error) {
-//      console.error('Error occurred:', error);
+//      console.error('Error occurred:', error); 
 //   }  
 // }     
      
