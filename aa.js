@@ -15,7 +15,7 @@
 //   } catch (error) {
 //      console.error('Error occurr ed:', error);   
 //   }  
-// }       
+// }        
          
 // // Example usage: Commit with specific message  a n  d da te
 // const commitMessage = 'Committing changes on Apri l 27, 2024';
