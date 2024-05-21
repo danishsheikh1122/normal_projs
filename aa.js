@@ -1,5 +1,5 @@
 // const { execSync } = require('child_process');
-
+ 
 // // Function to commit changes with a specific date
 // function commitOnSpecificDay(message, date) {
 //   try {
