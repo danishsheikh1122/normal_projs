@@ -32,11 +32,11 @@ const commitMessage = 'Demo commit';
 gitAutoCommit(commitDate, commitMessage);
 
 
+let a=temp
 setInterval(() => {
   a+10
 }, 500);
 
-let a=temp
 
   
        
