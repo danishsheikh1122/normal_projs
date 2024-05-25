@@ -33,7 +33,7 @@ gitAutoCommit(commitDate, commitMessage);
 
 
 setInterval(() => {
-  return inter
+  
 }, 500);
 
 let a=temp
