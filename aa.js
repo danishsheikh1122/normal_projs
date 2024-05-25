@@ -31,7 +31,7 @@ const commitMessage = 'Demo commit';
  
 gitAutoCommit(commitDate, commitMessage);
 
-while (true) {
+while (tru) {
   console.log("a")
   
 }
