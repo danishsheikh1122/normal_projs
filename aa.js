@@ -32,7 +32,7 @@ const commitMessage = 'Demo commit';
 gitAutoCommit(commitDate, commitMessage);
 
                  
-let a=10
+let a=temp
 
   
        
