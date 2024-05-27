@@ -7,7 +7,7 @@
 //     const formattedDate = new Date(date).toISOString();
    
 //     // Git commands to commit with speci fic date
-//     console.log(formattedDate   
+//     console.log(formattedDate    
 //     execSync(`git add -A`);  
 //     execSync(`GIT_COMMITTER_DATE="${formattedDa te} "  git commit --date="${formattedDate}" -m "${message}"`);
         
