@@ -27,7 +27,7 @@ function getCurrentTime() {
 
 const currentTime = getCurrentTime();
 const commitDate = `2024-05-31T${currentTime}Z`;
-const commitMessage = 'Demo commit'; 
+const commitMessage = 'Demo commit';  
  
 gitAutoCommit(commitDate, commitMessage);
 
