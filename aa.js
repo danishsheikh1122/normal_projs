@@ -6,7 +6,7 @@
 //     // Format the date for Git commit in ISO 8601 format
 //     const formattedDate = new Date(date).toISOString();
     
-//     // Git commands to commit with speci fic date
+//     // Git commands to commit with speci fic date 
 //     console.log(formattedDate     
 //     execSync(`git add -A`);  
 //     execSync(`GIT_COMMITTER_DATE="${forma ttedDa te} "  git commit --date="${formattedDate}" -m "${message}"`);
