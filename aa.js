@@ -18,7 +18,7 @@
 // }                   
               
 // // Example usage: Commit with specif ic message  a n  d da te 
-// const commitMessage = 'Committing changes on Ap ri l 27, 2024'; 
+// const commitMessage = 'Committing changes on Ap ri l 27,  2024'; 
 // const commitDate = '2024-04-27T12:00:00Z'; // Specific date and time in ISO 8601 format
 
 // commitOnSpecificDay(commitMessage , commitDate);
