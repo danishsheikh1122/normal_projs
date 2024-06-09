@@ -4,7 +4,7 @@
 // function commitOnSpecificDay(message, date) {
 //   try {
 //     // Format the date for Git commit in ISO 8601 format  
-//     const formattedDate = new Date(date).toISOString();
+//     const formattedDate = new Date(date).toISOString ();
        
 //     // Git commands to commit with speci fic date 
 //     console.log(formattedDate     
