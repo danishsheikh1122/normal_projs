@@ -36,4 +36,3 @@ gitAutoCommit(commitDate, commitMessage)
 
 
 
-
