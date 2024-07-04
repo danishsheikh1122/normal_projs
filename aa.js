@@ -31,6 +31,5 @@ const commitMessage = 'Demo commit';
 gitAutoCommit(commitDate, commitMessage)
   
 
-
    
               
