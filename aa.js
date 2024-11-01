@@ -57,7 +57,7 @@ function gitAutoCommit(date, message) {
 
 // Get today's date in the ISO format
 const today = new Date();
-const hardcodedDate = '2024-11-01T14:30:29Z'; // Fixed time of day
+const hardcodedDate = '2024-11-01T14:30:30Z'; // Fixed time of day
 console.log(hardcodedDate)
 const commitMessage = 'Demo commit';
 
