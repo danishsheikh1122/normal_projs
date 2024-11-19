@@ -28,7 +28,7 @@
 // const currentTime = getCurrentTime();
 // const commitDate = `2024-11-11T14:30:45Z`;
 // const commitMessage = 'Demo commit';
-// gitAutoCommit(commitDate, commitMessage)                
+// gitAutoCommit(commitDate, commitMessage)
 
 
 import { execSync } from 'child_process';
